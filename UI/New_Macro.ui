@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>291</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>7</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>7</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <item row="3" column="5" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3" colspan="2">
+    <widget class="QSpinBox" name="d2number">
+     <property name="toolTip">
+      <string>number of sides on die</string>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" alignment="Qt::AlignRight">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>d</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Dice Set 4:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Dice Set 1:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" alignment="Qt::AlignRight">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>d</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Dice Set 2:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" alignment="Qt::AlignRight">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>d</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3" colspan="2">
+    <widget class="QSpinBox" name="d3number">
+     <property name="toolTip">
+      <string>number of sides on die</string>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" alignment="Qt::AlignRight">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>d</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Dice Set 3:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2" colspan="3">
+    <widget class="QSpinBox" name="flatAdd">
+     <property name="toolTip">
+      <string>flat addition to the roll</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="2">
+    <widget class="QSpinBox" name="d1number">
+     <property name="toolTip">
+      <string>number of sides on die</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::UpDownArrows</enum>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>Binding: </string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3" colspan="2">
+    <widget class="QSpinBox" name="d4number">
+     <property name="toolTip">
+      <string>number of sides on die</string>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>Flat Add: </string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2" colspan="3">
+    <widget class="QComboBox" name="macroBinding">
+     <property name="toolTip">
+      <string>binding to skill or other character value</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="5">
+    <widget class="QLineEdit" name="macroNameEntry">
+     <property name="toolTip">
+      <string>name of macro</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>15</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QSpinBox" name="d1amount">
+     <property name="toolTip">
+      <string>number of die to roll</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QSpinBox" name="d2amount">
+     <property name="toolTip">
+      <string>number of die to roll</string>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QSpinBox" name="d3amount">
+     <property name="toolTip">
+      <string>number of die to roll</string>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="6">
+    <widget class="QSpinBox" name="d4amount">
+     <property name="toolTip">
+      <string>number of die to roll</string>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="6">
+    <widget class="QPushButton" name="newMacroSaveButton">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="6">
+    <widget class="QPushButton" name="newMacroCancelButton">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>macroNameEntry</tabstop>
+  <tabstop>d1number</tabstop>
+  <tabstop>d1amount</tabstop>
+  <tabstop>d2number</tabstop>
+  <tabstop>d2amount</tabstop>
+  <tabstop>d3number</tabstop>
+  <tabstop>d3amount</tabstop>
+  <tabstop>d4number</tabstop>
+  <tabstop>d4amount</tabstop>
+  <tabstop>flatAdd</tabstop>
+  <tabstop>macroBinding</tabstop>
+  <tabstop>newMacroSaveButton</tabstop>
+  <tabstop>newMacroCancelButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
